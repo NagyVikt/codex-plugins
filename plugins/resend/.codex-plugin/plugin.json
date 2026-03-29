@@ -1,7 +1,7 @@
 {
   "name": "resend",
   "version": "0.1.0",
-  "description": "Resend email workflows for agents via CLI skills and MCP tooling.",
+  "description": "Resend email workflows for agents via CLI skills and MCP tooling. After install, run: bash ~/plugins/resend/scripts/bootstrap.sh",
   "author": {
     "name": "Resend",
     "url": "https://resend.com/"
@@ -21,7 +21,7 @@
   "interface": {
     "displayName": "Resend",
     "shortDescription": "Send and manage email with Resend",
-    "longDescription": "Use Resend via both MCP tools and CLI workflows to send emails, manage audiences, domains, broadcasts, templates, and webhooks.",
+    "longDescription": "Use Resend via both MCP tools and CLI workflows to send emails, manage audiences, domains, broadcasts, templates, and webhooks. After installation, run `bash ~/plugins/resend/scripts/bootstrap.sh` in a terminal to verify/install CLI and capture RESEND_API_KEY.",
     "developerName": "Resend",
     "category": "Productivity",
     "capabilities": [
@@ -33,9 +33,9 @@
     "privacyPolicyURL": "https://resend.com/legal/privacy-policy",
     "termsOfServiceURL": "https://resend.com/legal/terms",
     "defaultPrompt": [
+      "Run /resend-setup",
       "Send a transactional email with Resend",
-      "Set up and verify a Resend domain",
-      "Create and send a Resend broadcast"
+      "Set up and verify a Resend domain"
     ],
     "brandColor": "#000000",
     "screenshots": []

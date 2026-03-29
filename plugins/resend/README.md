@@ -18,6 +18,10 @@ Run plugin bootstrap (this is the install flow):
 bash scripts/bootstrap.sh
 ```
 
+Or use the plugin command:
+
+- `/resend-setup`
+
 The bootstrap flow does this automatically:
 
 - checks `resend --help`
@@ -59,3 +63,4 @@ resend emails send --from "you@domain.com" --to "user@example.com" --subject "He
 - `scripts/ensure-cli.sh` - check `resend --help`, install only if missing
 - `scripts/bootstrap.sh` - recommended install/bootstrap entrypoint
 - `scripts/install-cli.sh` - installer helper
+- `commands/resend-setup.md` - discoverable setup command
