@@ -1,0 +1,44 @@
+{
+  "name": "agentation",
+  "version": "0.1.0",
+  "description": "Integrate Agentation into React apps and wire MCP-based annotation sync for coding agents.",
+  "author": {
+    "name": "Agentation",
+    "url": "https://github.com/benjitaylor/agentation"
+  },
+  "homepage": "https://www.agentation.com/",
+  "repository": "https://github.com/benjitaylor/agentation",
+  "license": "MIT",
+  "keywords": [
+    "agentation",
+    "annotations",
+    "react",
+    "mcp",
+    "developer-tools",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Agentation",
+    "shortDescription": "Add in-app annotations and sync them to MCP-enabled coding agents",
+    "longDescription": "Use Agentation to add local-first annotations in React during development and optionally connect to the Agentation MCP server for live, bidirectional agent sync.",
+    "developerName": "Agentation",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.npmjs.com/package/agentation",
+    "privacyPolicyURL": "https://github.com/benjitaylor/agentation",
+    "termsOfServiceURL": "https://github.com/benjitaylor/agentation",
+    "defaultPrompt": [
+      "Set up Agentation in my React app and wire MCP sync for my coding agent"
+    ],
+    "composerIcon": "./assets/agentation-small.svg",
+    "logo": "./assets/agentation-logo.svg",
+    "screenshots": [],
+    "brandColor": "#111119"
+  }
+}

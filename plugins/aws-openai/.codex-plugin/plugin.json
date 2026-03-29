@@ -20,7 +20,7 @@
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
-    "displayName": "AWS OpenAI",
+    "displayName": "aws",
     "shortDescription": "AWS + OpenAI implementation workflows",
     "longDescription": "Use AWS OpenAI for architecture, deployment, and operations guidance when integrating OpenAI APIs with AWS services such as Lambda, ECS, API Gateway, and observability stacks.",
     "developerName": "OpenAI",
