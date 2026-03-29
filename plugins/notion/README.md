@@ -28,7 +28,10 @@ Notion helps you turn specs, notes, and research into structured, shareable work
 3. Publish refined outputs back into your workspace structure.
 
 ## Quick Examples
-- `Search Notion workspace content, update pages, or turn specs, notes, and meeting context into structured outputs`
+
+```
+Search Notion workspace content, update pages, or turn specs, notes, and meeting context into structured outputs
+```
 
 ## Requirements
 - A connected Notion integration with read/write access to target pages.

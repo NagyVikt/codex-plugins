@@ -28,7 +28,10 @@ Sentry helps you inspect production issues and events to prioritize high-impact 
 3. Use findings to prioritize fixes in your repository backlog.
 
 ## Quick Examples
-- `Inspect recent Sentry issues and summarize the top production errors`
+
+```
+Inspect recent Sentry issues and summarize the top production errors
+```
 
 ## Requirements
 - `SENTRY_AUTH_TOKEN` available for Sentry API access.

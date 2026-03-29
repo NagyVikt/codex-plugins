@@ -35,7 +35,10 @@ Google Calendar helps you summarize schedules, coordinate availability, and mana
 3. Confirm event details and apply changes to your calendars.
 
 ## Quick Examples
-- `Summarize my calendar, compare availability, prep meetings, or draft event details`
+
+```
+Summarize my calendar, compare availability, prep meetings, or draft event details
+```
 
 ## Requirements
 - A connected Google Calendar integration with calendar permissions.

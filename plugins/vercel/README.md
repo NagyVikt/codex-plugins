@@ -28,9 +28,18 @@ Vercel helps you build, deploy, operate, and optimize applications across the fu
 3. Implement, verify, and iterate in the same loop until production-ready.
 
 ## Quick Examples
-- `Audit this repo for Vercel deployment risks`
-- `Which Vercel tools fit this app best`
-- `Help wire Vercel MCP into this workflow`
+
+```
+Audit this repo for Vercel deployment risks
+```
+
+```
+Which Vercel tools fit this app best
+```
+
+```
+Help wire Vercel MCP into this workflow
+```
 
 ## Requirements
 - Vercel account/project access and OAuth authorization for MCP.

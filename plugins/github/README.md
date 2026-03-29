@@ -28,7 +28,10 @@ GitHub streamlines PR, issue, CI, and publishing workflows for day-to-day engine
 3. Apply fixes in your repo and publish through the included PR workflows.
 
 ## Quick Examples
-- `Inspect PRs, triage issues, debug failing checks, and prepare code changes for review`
+
+```
+Inspect PRs, triage issues, debug failing checks, and prepare code changes for review
+```
 
 ## Requirements
 - A connected GitHub integration with repository access.

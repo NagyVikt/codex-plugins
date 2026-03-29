@@ -35,7 +35,10 @@ Google Drive unifies Drive, Docs, Sheets, and Slides workflows in one plugin exp
 3. Iterate on outputs (summaries, formulas, deck edits) as needed.
 
 ## Quick Examples
-- `Find the right Drive file, then summarize a Doc, update a Sheet, or edit a Slides deck`
+
+```
+Find the right Drive file, then summarize a Doc, update a Sheet, or edit a Slides deck
+```
 
 ## Requirements
 - A connected Google Drive integration with access to target files.

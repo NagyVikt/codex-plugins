@@ -35,7 +35,10 @@ Build Web Apps helps you design, build, deploy, and scale modern web application
 3. Apply changes in-repo and validate with your normal test/deploy checks.
 
 ## Quick Examples
-- `Review this app's UI, improve the React implementation, wire up payments or database changes, and help deploy it`
+
+```
+Review this app's UI, improve the React implementation, wire up payments or database changes, and help deploy it
+```
 
 ## Requirements
 - Project access in Codex with relevant source code.

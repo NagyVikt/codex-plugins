@@ -28,7 +28,10 @@ Canva helps you create, adapt, and scale designs for presentations, social media
 3. Iterate on generated variants until they match your campaign goals.
 
 ## Quick Examples
-- `Create or adapt a Canva design for presentations, resized social variants, or translated versions`
+
+```
+Create or adapt a Canva design for presentations, resized social variants, or translated versions
+```
 
 ## Requirements
 - A connected Canva app integration.

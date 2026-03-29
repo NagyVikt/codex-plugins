@@ -28,7 +28,10 @@ Linear helps you find issues, reference project context, and keep execution alig
 3. Use returned context to plan, implement, and report progress clearly.
 
 ## Quick Examples
-- `Triage or update relevant issues for this task with clear next actions`
+
+```
+Triage or update relevant issues for this task with clear next actions
+```
 
 ## Requirements
 - A connected Linear integration with workspace access.

@@ -28,9 +28,18 @@ AWS provides implementation workflows and MCP-backed guidance for architecture, 
 3. Apply recommendations directly in your infrastructure and app repos.
 
 ## Quick Examples
-- `Design an AWS architecture for an OpenAI-powered API`
-- `Set up secure secret management for OpenAI API keys on AWS`
-- `Troubleshoot latency and cost for OpenAI workloads on AWS`
+
+```
+Design an AWS architecture for an OpenAI-powered API
+```
+
+```
+Set up secure secret management for OpenAI API keys on AWS
+```
+
+```
+Troubleshoot latency and cost for OpenAI workloads on AWS
+```
 
 ## Requirements
 - AWS credentials and account access for live MCP-backed workflows.

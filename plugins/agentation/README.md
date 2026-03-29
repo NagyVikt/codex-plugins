@@ -35,7 +35,10 @@ Agentation adds in-app annotations and MCP-synced feedback loops for React teams
 3. Use the built-in annotation lifecycle (reply/acknowledge/resolve) while iterating on code.
 
 ## Quick Examples
-- `Set up Agentation in my React app and wire MCP sync for my coding agent`
+
+```
+Set up Agentation in my React app and wire MCP sync for my coding agent
+```
 
 ## Requirements
 - A React application where Agentation can be installed.

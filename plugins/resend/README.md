@@ -28,9 +28,18 @@ Resend helps you send and manage transactional email, broadcasts, audiences, and
 3. Use the CLI skill path when shell-based workflows are preferred.
 
 ## Quick Examples
-- `Run /resend-setup`
-- `Send a transactional email with Resend`
-- `Set up and verify a Resend domain`
+
+```
+Run /resend-setup
+```
+
+```
+Send a transactional email with Resend
+```
+
+```
+Set up and verify a Resend domain
+```
 
 ## Requirements
 - `RESEND_API_KEY` configured for MCP/CLI operations.

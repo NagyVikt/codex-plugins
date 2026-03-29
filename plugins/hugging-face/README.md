@@ -35,7 +35,10 @@ Hugging Face helps you discover models, datasets, Spaces, and applied ML workflo
 3. Apply selected models/datasets in your local or cloud pipelines.
 
 ## Quick Examples
-- `Generate a realistic farm using FLUX.1`
+
+```
+Generate a realistic farm using FLUX.1
+```
 
 ## Requirements
 - A connected Hugging Face integration for account-scoped tasks.

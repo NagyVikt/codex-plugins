@@ -28,9 +28,18 @@ Medusa helps you build backend, admin, and storefront ecommerce features with do
 3. Implement incrementally and validate behavior in your Medusa project.
 
 ## Quick Examples
-- `Implement a Medusa backend feature with module, workflow, and API route`
-- `Help me extend my Medusa admin dashboard with custom widgets and pages`
-- `Integrate a Medusa custom API route into my storefront with SDK best practices`
+
+```
+Implement a Medusa backend feature with module, workflow, and API route
+```
+
+```
+Help me extend my Medusa admin dashboard with custom widgets and pages
+```
+
+```
+Integrate a Medusa custom API route into my storefront with SDK best practices
+```
 
 ## Requirements
 - A Medusa codebase (or target project) in your workspace.

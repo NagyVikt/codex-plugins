@@ -35,7 +35,10 @@ Superpowers gives you structured engineering workflows for planning, execution, 
 3. Use completion/verification workflows before claiming tasks are done.
 
 ## Quick Examples
-- `Use superpowers workflows to plan and execute this feature safely`
+
+```
+Use superpowers workflows to plan and execute this feature safely
+```
 
 ## Requirements
 - A coding task where process quality and repeatability matter.

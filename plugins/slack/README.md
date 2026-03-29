@@ -28,7 +28,10 @@ Slack helps you summarize channels, draft responses, and keep team communication
 3. Review and send final messages through your Slack process.
 
 ## Quick Examples
-- `Summarize unread activity, draft replies, or prepare updates`
+
+```
+Summarize unread activity, draft replies, or prepare updates
+```
 
 ## Requirements
 - A connected Slack integration with access to relevant channels.

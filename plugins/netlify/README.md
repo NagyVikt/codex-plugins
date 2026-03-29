@@ -28,7 +28,10 @@ Netlify helps you deploy projects, manage previews, and ship production releases
 3. Review deployment output, fix blockers, and redeploy as needed.
 
 ## Quick Examples
-- `Deploy this project to Netlify and return the preview URL plus any required fixes`
+
+```
+Deploy this project to Netlify and return the preview URL plus any required fixes
+```
 
 ## Requirements
 - A connected Netlify integration and target site/project access.

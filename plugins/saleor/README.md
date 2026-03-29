@@ -28,9 +28,18 @@ Saleor provides focused storefront implementation guidance for GraphQL, checkout
 3. Apply and verify changes in your Saleor frontend repository.
 
 ## Quick Examples
-- `Use saleor-paper-storefront to implement a PDP change`
-- `Audit Saleor GraphQL query and caching patterns`
-- `Fix checkout session flow in this Saleor storefront`
+
+```
+Use saleor-paper-storefront to implement a PDP change
+```
+
+```
+Audit Saleor GraphQL query and caching patterns
+```
+
+```
+Fix checkout session flow in this Saleor storefront
+```
 
 ## Requirements
 - A Saleor storefront codebase in your workspace.

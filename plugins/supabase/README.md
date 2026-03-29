@@ -28,10 +28,22 @@ Supabase helps you run setup, schema, auth, RLS, and migration workflows with MC
 3. Use CLI workflows for local stack lifecycle, migrations, and type generation.
 
 ## Quick Examples
-- `Run /supabase:setup and validate my Supabase MCP connection`
-- `Use /supabase:cli to run safe Supabase CLI workflows for local dev and migrations`
-- `Inspect my Supabase schema and suggest query improvements`
-- `Help troubleshoot Supabase auth, RLS policy, or database issues`
+
+```
+Run /supabase:setup and validate my Supabase MCP connection
+```
+
+```
+Use /supabase:cli to run safe Supabase CLI workflows for local dev and migrations
+```
+
+```
+Inspect my Supabase schema and suggest query improvements
+```
+
+```
+Help troubleshoot Supabase auth, RLS policy, or database issues
+```
 
 ## Requirements
 - Supabase project access and OAuth authorization for MCP.

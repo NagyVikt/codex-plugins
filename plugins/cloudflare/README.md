@@ -35,7 +35,10 @@ Cloudflare gives you platform guidance and MCP access for Workers, edge services
 3. Iterate with Wrangler and deployment workflows until the target behavior is verified.
 
 ## Quick Examples
-- `Help me choose the right Cloudflare product, configure Wrangler, and use Cloudflare MCP to inspect or deploy this project`
+
+```
+Help me choose the right Cloudflare product, configure Wrangler, and use Cloudflare MCP to inspect or deploy this project
+```
 
 ## Requirements
 - Cloudflare account access with OAuth for MCP connection.

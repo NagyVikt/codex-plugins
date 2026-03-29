@@ -35,7 +35,10 @@ Game Studio helps you plan, prototype, and ship browser games across 2D and 3D s
 3. Use playtest-oriented workflows to gather evidence and tune gameplay.
 
 ## Quick Examples
-- `Design a browser game and plan the core loop`
+
+```
+Design a browser game and plan the core loop
+```
 
 ## Requirements
 - A JavaScript/TypeScript web game project workspace.

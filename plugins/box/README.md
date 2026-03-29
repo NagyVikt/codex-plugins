@@ -28,7 +28,10 @@ Box helps you quickly find, reference, and summarize documents from your Box wor
 3. Use extracted context to drive implementation or communication tasks.
 
 ## Quick Examples
-- `Find a Box file and summarize the key points`
+
+```
+Find a Box file and summarize the key points
+```
 
 ## Requirements
 - A connected Box app integration with access to your target files.

@@ -28,7 +28,10 @@ Jam helps you capture screen-recorded bug context for faster triage and debuggin
 3. Use the captured evidence to reproduce and fix issues in code.
 
 ## Quick Examples
-- `What does this bug report show`
+
+```
+What does this bug report show
+```
 
 ## Requirements
 - A connected Jam integration with access to relevant reports.

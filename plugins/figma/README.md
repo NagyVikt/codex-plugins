@@ -28,7 +28,10 @@ Figma helps teams translate design files into production-ready code and repeatab
 3. Refine generated rules/patterns so future handoffs are faster and safer.
 
 ## Quick Examples
-- `Inspect a Figma design and implement it in code`
+
+```
+Inspect a Figma design and implement it in code
+```
 
 ## Requirements
 - A connected Figma integration with access to the relevant files/libraries.

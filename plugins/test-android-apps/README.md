@@ -42,7 +42,10 @@ Test Android Apps helps you reproduce emulator issues and capture screenshots, U
 3. Capture logs/screens/UI state and use findings to implement targeted fixes.
 
 ## Quick Examples
-- `Use Test Android Apps to reproduce an emulator issue with adb, then capture screenshots, UI state, and logcat`
+
+```
+Use Test Android Apps to reproduce an emulator issue with adb, then capture screenshots, UI state, and logcat
+```
 
 ## Requirements
 - Android SDK/emulator tooling available in your environment.

@@ -28,7 +28,10 @@ Stripe helps you make safer payment and billing integration decisions with moder
 3. Implement the recommended API flow and validate end-to-end behavior.
 
 ## Quick Examples
-- `Use Stripe to help with this task`
+
+```
+Use Stripe to help with this task
+```
 
 ## Requirements
 - A connected Stripe integration and appropriate account permissions.

@@ -28,7 +28,10 @@ Gmail helps you triage inbox activity, draft replies, and manage email threads f
 3. Review and send refined responses through your normal email process.
 
 ## Quick Examples
-- `Summarize inbox, draft replies, or process email threads`
+
+```
+Summarize inbox, draft replies, or process email threads
+```
 
 ## Requirements
 - A connected Gmail integration with mailbox access.
