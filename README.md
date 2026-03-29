@@ -13,54 +13,52 @@ Built for humans, AI agents, and CI/CD pipelines.
  ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═╝     ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝
 ```
 
-## What Codex can already do with plugins
+## What Codex plugins can do today (planner style)
 
-This is the real, current capability surface from plugins in this repo today.
+- [x] Create web apps quickly
+  - [x] Build and refine Next.js-style product UIs with `build-web-apps` (`frontend-skill`, `react-best-practices`, `shadcn-best-practices`).
+  - [x] Turn Figma designs into implementation tasks and component mappings with `figma` (`figma-implement-design`, `figma-code-connect-components`, `figma-create-design-system-rules`).
+  - [x] Convert code changes into GitHub branches and PRs with `github` (`yeet`, `github`, `gh-address-comments`).
+  - [x] Add payments and database architecture safely with `stripe` (`stripe-best-practices`) and `supabase` (`setup`, `supabase-usage`, `cli`).
 
-### Create web apps quickly
-- Build and refine Next.js-style product UIs with `build-web-apps` (`frontend-skill`, `react-best-practices`, `shadcn-best-practices`).
-- Turn Figma designs into implementation tasks and component mappings with `figma` (`figma-implement-design`, `figma-code-connect-components`, `figma-create-design-system-rules`).
-- Convert code changes into GitHub branches and PRs with `github` (`yeet`, `github`, `gh-address-comments`).
-- Add payments and database architecture safely with `stripe` (`stripe-best-practices`) and `supabase` (`setup`, `supabase-usage`, `cli`).
+- [x] Design and visual iteration workflows
+  - [x] Run design-to-code loops using `figma` plus UI refinement in `build-web-apps`.
+  - [x] Test and verify web output in browser flows with `vercel` (`agent-browser`, `agent-browser-verify`, `verification`).
+  - [x] Structure storefront/admin UX work for commerce projects with `medusa` and `saleor` skills.
+  - [x] Iterate safely with branching and review workflows via `github` and `superpowers`.
 
-### Design and visual iteration workflows
-- Run design-to-code loops using `figma` plus UI refinement in `build-web-apps`.
-- Test and verify web output in browser flows with `vercel` (`agent-browser`, `agent-browser-verify`, `verification`).
-- Structure storefront/admin UX work for commerce projects with `medusa` and `saleor` skills.
-- Iterate safely with branching and review workflows via `github` and `superpowers`.
+- [x] Development tools you can run now
+  - [x] Use structured implementation workflows from `superpowers` (planning, debugging, TDD, verification, code review).
+  - [x] Run plugin-specific CLI workflows with `supabase` (`cli`) and `resend` (`resend-cli`).
+  - [x] Use integration-focused workflows for cloud/platform ops with `aws`, `cloudflare`, `vercel`, and `netlify`.
+  - [x] Triage production signals with `sentry` and feed fixes into repo workflows with `github`.
 
-### Development tools you can run now
-- Use structured implementation workflows from `superpowers` (planning, debugging, TDD, verification, code review).
-- Run plugin-specific CLI workflows with `supabase` (`cli`) and `resend` (`resend-cli`).
-- Use integration-focused workflows for cloud/platform ops with `aws`, `cloudflare`, `vercel`, and `netlify`.
-- Triage production signals with `sentry` and feed fixes into repo workflows with `github`.
+- [x] Deploy and ship faster
+  - [x] Deploy and operate web apps with `vercel` (`deployments-cicd`, `vercel-cli`, `env-vars`, `observability`).
+  - [x] Deploy to Netlify with `netlify` (`netlify-deploy`).
+  - [x] Manage production-ready delivery flows from implementation to PR using `github` + `superpowers`.
+  - [x] Support links/domains/env management through deployment and platform skills in `vercel` and `netlify`.
 
-### Deploy and ship faster
-- Deploy and operate web apps with `vercel` (`deployments-cicd`, `vercel-cli`, `env-vars`, `observability`).
-- Deploy to Netlify with `netlify` (`netlify-deploy`).
-- Manage production-ready delivery flows from implementation to PR using `github` + `superpowers`.
-- Support links/domains/env management through deployment and platform skills in `vercel` and `netlify`.
+- [x] Collaboration and coordination
+  - [x] Summarize channels, draft replies, and build digests with `slack` skills.
+  - [x] Triage inboxes and draft email responses with `gmail`.
+  - [x] Schedule and coordinate team calendars with `google-calendar`.
+  - [x] Capture planning/research/meeting knowledge with `notion`.
+  - [x] Add annotation-driven developer feedback loops in React apps with `agentation`.
 
-### Collaboration and coordination
-- Summarize channels, draft replies, and build digests with `slack` skills.
-- Triage inboxes and draft email responses with `gmail`.
-- Schedule and coordinate team calendars with `google-calendar`.
-- Capture planning/research/meeting knowledge with `notion`.
-- Add annotation-driven developer feedback loops in React apps with `agentation`.
+- [x] Advanced AI and platform capabilities
+  - [x] Build AI-enabled app flows with `vercel` (`ai-sdk`, `ai-elements`, `ai-gateway`, `chat-sdk`).
+  - [x] Configure and use MCP-backed workflows in supported plugins (`vercel`, `supabase`, `cloudflare`, `aws`, `medusa`, `resend`, `hugging-face`, `agentation`, `build-web-apps`).
+  - [x] Explore models, datasets, eval, and inference workflows with `hugging-face`.
+  - [x] Build agent/runtime systems on edge/cloud with `cloudflare`, `aws`, and `vercel` skills.
 
-### Advanced AI and platform capabilities
-- Build AI-enabled app flows with `vercel` (`ai-sdk`, `ai-elements`, `ai-gateway`, `chat-sdk`).
-- Configure and use MCP-backed workflows in supported plugins (`vercel`, `supabase`, `cloudflare`, `aws`, `medusa`, `resend`, `hugging-face`, `agentation`, `build-web-apps`).
-- Explore models, datasets, eval, and inference workflows with `hugging-face`.
-- Build agent/runtime systems on edge/cloud with `cloudflare`, `aws`, and `vercel` skills.
+- [x] Broad project support
+  - [x] Web frameworks/platforms: strong support via `vercel`, `netlify`, `build-web-apps`, `cloudflare`.
+  - [x] Mobile: `build-ios-apps` (SwiftUI) and `test-android-apps` (emulator QA).
+  - [x] Commerce: `medusa` and `saleor`.
+  - [x] Productivity/workspace automation: `google-drive`, `gmail`, `google-calendar`, `slack`, `notion`, `box`, `linear`.
 
-### Broad project support
-- Web frameworks/platforms: strong support via `vercel`, `netlify`, `build-web-apps`, `cloudflare`.
-- Mobile: `build-ios-apps` (SwiftUI) and `test-android-apps` (emulator QA).
-- Commerce: `medusa` and `saleor`.
-- Productivity/workspace automation: `google-drive`, `gmail`, `google-calendar`, `slack`, `notion`, `box`, `linear`.
-
-TODO: auto-generate top-skill and expandable hidden-skill blocks from plugin metadata/scripts.
+- [ ] TODO: auto-generate top-skill and expandable hidden-skill blocks from plugin metadata/scripts.
 
 ## 2-minute setup
 
@@ -316,3 +314,18 @@ Production toolkit for model discovery, datasets, evals, Spaces, and inference f
 ## License
 
 MIT
+
+## Skill Source Repositories
+
+These are the source repositories used to create and evolve skills across this plugin collection:
+
+- [agent-plugins](https://github.com/awslabs/agent-plugins)
+- [aws-cli](https://github.com/aws/aws-cli)
+- [claude-codex-settings](https://github.com/fcakyon/claude-codex-settings)
+- [cli](https://github.com/supabase/cli)
+- [medusa-agent-skills](https://github.com/medusajs/medusa-agent-skills)
+- [plugins](https://github.com/NagyVikt/openplugins)
+- [resend-cli](https://github.com/resend/resend-cli)
+- [resend-mcp](https://github.com/resend/resend-mcp)
+- [saleor-paper-storefront](https://github.com/saleor/agent-skills) *(base reference for the Saleor storefront skill pack)*
+- [superpowers](https://github.com/obra/superpowers)
