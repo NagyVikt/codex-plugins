@@ -40,6 +40,8 @@ references:
 The CLI auto-detects non-TTY environments and outputs JSON — no `--json` flag needed.
 
 **Rules for agents:**
+- Before the first `resend` command in a new environment, run `bash plugins/resend/scripts/bootstrap.sh`. It checks `resend --help`, installs CLI when missing, and asks for `RESEND_API_KEY` in interactive terminals.
+- Treat CLI and MCP as independent integrations. A working `mcp__resend__*` tool path does not prove the `resend` shell command is installed, and a working CLI does not prove MCP is configured.
 - Supply ALL required flags. The CLI will NOT prompt when stdin is not a TTY.
 - Pass `--quiet` (or `-q`) to suppress spinners and status messages.
 - Exit `0` = success, `1` = error.

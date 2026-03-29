@@ -17,10 +17,10 @@ else
   ok=1
 fi
 
-if command -v resend >/dev/null 2>&1; then
+if command -v resend >/dev/null 2>&1 && resend --help >/dev/null 2>&1; then
   printf '[ok] resend CLI: %s\n' "$(resend --version 2>/dev/null || echo 'installed')"
 else
-  printf '[warn] resend CLI not found (install with scripts/install-cli.sh)\n'
+  printf '[warn] resend CLI unavailable (install with scripts/bootstrap.sh)\n'
 fi
 
 if [[ -n "${RESEND_API_KEY:-}" ]]; then

@@ -12,13 +12,21 @@ Use Resend from agents with two integration paths:
 
 ## Quick Start
 
-Run local checks:
+Run plugin bootstrap (this is the install flow):
 
 ```bash
-bash scripts/prereq-check.sh
+bash scripts/bootstrap.sh
 ```
 
-Install or update the CLI:
+The bootstrap flow does this automatically:
+
+- checks `resend --help`
+- installs CLI only if missing
+- verifies CLI again
+- asks you to paste `RESEND_API_KEY` in terminal if missing
+- runs prerequisite checks
+
+Manual install/update (optional):
 
 ```bash
 bash scripts/install-cli.sh npm
@@ -48,4 +56,6 @@ resend emails send --from "you@domain.com" --to "user@example.com" --subject "He
 - `.mcp.json` - Resend MCP server config
 - `skills/resend-cli/` - vendored skill snapshot from `resend-cli`
 - `scripts/prereq-check.sh` - environment checks
+- `scripts/ensure-cli.sh` - check `resend --help`, install only if missing
+- `scripts/bootstrap.sh` - recommended install/bootstrap entrypoint
 - `scripts/install-cli.sh` - installer helper

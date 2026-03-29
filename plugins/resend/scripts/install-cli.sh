@@ -22,8 +22,9 @@ case "$method" in
     ;;
 esac
 
-if command -v resend >/dev/null 2>&1; then
-  echo "Installed: $(resend --version || true)"
+if command -v resend >/dev/null 2>&1 && resend --help >/dev/null 2>&1; then
+  echo "Installed and verified: $(resend --version || true)"
 else
-  echo "Install command completed but 'resend' is not in PATH yet." >&2
+  echo "Install command completed but 'resend --help' still fails." >&2
+  exit 1
 fi
