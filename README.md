@@ -128,6 +128,28 @@ bash scripts/install_linux.sh
 bash scripts/install_windows.sh
 ```
 
+## Step-by-step tutorial
+
+Use this quick flow to go from install to first plugin scaffold.
+
+### Step 1: Install and link the plugin workspace
+
+Run the OS-specific install script from the setup section above.
+
+![Step 1 - install and link workspace](./public/tutorial-step-1.png)
+
+### Step 2: Verify symlink and marketplace wiring
+
+Run the verification commands in `Check it worked` and confirm both paths point to this repo.
+
+![Step 2 - verify setup](./public/tutorial-step-2.png)
+
+### Step 3: Generate your first plugin scaffold
+
+Create a starter plugin with `bash scripts/new-plugin.sh my-plugin`, then follow the printed git commands.
+
+![Step 3 - create first plugin](./public/tutorial-step-3.png)
+
 ## Check it worked
 
 ```bash
