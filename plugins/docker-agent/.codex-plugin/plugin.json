@@ -1,7 +1,7 @@
 {
   "name": "docker-agent",
   "version": "0.1.0",
-  "description": "Docker Agent skill pack for Codex workflows, starting with safe Go dependency bump automation.",
+  "description": "Docker Agent skill pack for validation-first Go maintenance workflows: auditing, vulnerability triage, major-upgrade planning, and safe dependency bumping.",
   "author": {
     "name": "Docker",
     "url": "https://www.docker.com/"
@@ -21,7 +21,7 @@
   "interface": {
     "displayName": "Docker Agent",
     "shortDescription": "Docker Agent skills for practical coding workflows in Codex",
-    "longDescription": "Use Docker Agent skill workflows directly in Codex plugin sessions, starting with dependency-maintenance guidance for Go repositories.",
+    "longDescription": "Use Docker Agent skill workflows directly in Codex sessions to audit Go dependency health, triage vulnerabilities, plan major upgrades, and execute safe dependency bumps.",
     "developerName": "Docker",
     "category": "Coding",
     "capabilities": [
@@ -33,6 +33,7 @@
     "privacyPolicyURL": "https://www.docker.com/legal/docker-privacy-policy/",
     "termsOfServiceURL": "https://www.docker.com/legal/docker-software-end-user-license-agreement/",
     "defaultPrompt": [
+      "Use docker-agent:audit-go-dependencies to produce a prioritized Go maintenance report, then choose triage or bump workflows",
       "Use docker-agent:bump-go-dependencies to update direct Go dependencies safely and summarize results"
     ],
     "brandColor": "#2496ED",

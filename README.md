@@ -29,6 +29,7 @@ open-source ecosystems, enterprise platforms, and modern CLI-driven stacks.
 - [x] Development tools you can run now
   - [x] Use structured implementation workflows from `superpowers` (planning, debugging, TDD, verification, code review).
   - [x] Run plugin-specific CLI workflows with `supabase` (`cli`) and `resend` (`resend-cli`).
+  - [x] Run local filesystem and terminal automation workflows with `desktop-commander` (`desktop-commander-ops`).
   - [x] Use integration-focused workflows for cloud/platform ops with `aws`, `cloudflare`, `vercel`, and `netlify`.
   - [x] Triage production signals with `sentry` and feed fixes into repo workflows with `github`.
 
@@ -47,7 +48,7 @@ open-source ecosystems, enterprise platforms, and modern CLI-driven stacks.
 
 - [x] Advanced AI and platform capabilities
   - [x] Build AI-enabled app flows with `vercel` (`ai-sdk`, `ai-elements`, `ai-gateway`, `chat-sdk`).
-  - [x] Configure and use MCP-backed workflows in supported plugins (`vercel`, `supabase`, `cloudflare`, `aws`, `medusa`, `resend`, `hugging-face`, `agentation`, `build-web-apps`).
+  - [x] Configure and use MCP-backed workflows in supported plugins (`vercel`, `supabase`, `cloudflare`, `aws`, `medusa`, `resend`, `hugging-face`, `agentation`, `build-web-apps`, `desktop-commander`).
   - [x] Explore models, datasets, eval, and inference workflows with `hugging-face`.
   - [x] Build agent/runtime systems on edge/cloud with `cloudflare`, `aws`, and `vercel` skills.
 
@@ -397,19 +398,26 @@ Stand up and run Supabase projects with CLI-first setup and usage workflows.
 - Top skills: `cli`, `setup`, `supabase-usage`
 - Skill count: `3`
 
+#### [`desktop-commander`](./plugins/desktop-commander)
+
+Run local filesystem and terminal workflows through the Desktop Commander MCP server.
+
+- Top skills: `desktop-commander-ops`
+- Skill count: `1`
+
 #### [`ssh-skill`](./plugins/ssh-skill)
 
 Set up secure SSH aliases for reusable remote access and run Supabase CLI commands on target servers.
 
-- Top skills: `ssh-server-access`, `supabase-over-ssh`
+- Top skills: `remote-supabase-ops`, `setup-profile`
 - Skill count: `2`
 
 #### [`docker-agent`](./plugins/docker-agent)
 
-Automate safe Go dependency maintenance with validation-first Docker Agent workflows.
+Validation-first Go maintenance workflows for dependency audits, vuln triage, upgrade planning, and safe bumps.
 
-- Top skills: `bump-go-dependencies`
-- Skill count: `1`
+- Top skills: `audit-go-dependencies`, `triage-go-vulnerabilities`, `plan-go-major-upgrades`, `bump-go-dependencies`
+- Skill count: `4`
 
 #### [`resend`](./plugins/resend)
 
@@ -441,6 +449,7 @@ These are the source repositories used to create and evolve skills across this p
 - [aws-cli](https://github.com/aws/aws-cli)
 - [claude-codex-settings](https://github.com/fcakyon/claude-codex-settings)
 - [cli](https://github.com/supabase/cli)
+- [DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
 - [medusa-agent-skills](https://github.com/medusajs/medusa-agent-skills)
 - [openai/plugins](https://github.com/openai/plugins) _(official upstream plugin repository)_
 - [plugins](https://github.com/NagyVikt/openplugins)
