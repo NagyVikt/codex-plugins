@@ -371,6 +371,13 @@ Stand up and run Supabase projects with CLI-first setup and usage workflows.
 - Top skills: `cli`, `setup`, `supabase-usage`
 - Skill count: `3`
 
+#### [`ssh-skill`](./plugins/ssh-skill)
+
+Set up secure SSH aliases for reusable remote access and run Supabase CLI commands on target servers.
+
+- Top skills: `remote-supabase-ops`, `ssh-setup-profile`
+- Skill count: `2`
+
 #### [`resend`](./plugins/resend)
 
 Operationalize email delivery from local dev to CI pipelines with Resend-native tooling.

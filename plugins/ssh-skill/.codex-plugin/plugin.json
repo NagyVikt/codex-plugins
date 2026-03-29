@@ -1,0 +1,43 @@
+{
+  "name": "ssh-skill",
+  "version": "0.1.0",
+  "description": "Secure SSH profile workflows for reusable server access and remote Supabase CLI execution.",
+  "author": {
+    "name": "Open WebUI Community",
+    "url": "https://github.com/openwebui/codex-plugins"
+  },
+  "homepage": "https://github.com/openwebui/codex-plugins",
+  "repository": "https://github.com/openwebui/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "ssh",
+    "server",
+    "remote",
+    "supabase",
+    "cli",
+    "devops"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SSH Skill",
+    "shortDescription": "Secure SSH profile setup and remote Supabase workflows",
+    "longDescription": "Use SSH Skill to create reusable host aliases in ~/.ssh/config, connect safely with key-based authentication, and run Supabase CLI commands on remote servers through guarded SSH wrappers.",
+    "developerName": "Open WebUI Community",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/openwebui/codex-plugins",
+    "privacyPolicyURL": "https://github.com/openwebui/codex-plugins",
+    "termsOfServiceURL": "https://github.com/openwebui/codex-plugins",
+    "defaultPrompt": [
+      "Set up a secure SSH profile alias for this server in ~/.ssh/config",
+      "Connect to my server by SSH alias and run a remote Supabase status check",
+      "Run safe remote Supabase migration commands over SSH with confirmation gates"
+    ],
+    "brandColor": "#0F766E",
+    "screenshots": []
+  }
+}
