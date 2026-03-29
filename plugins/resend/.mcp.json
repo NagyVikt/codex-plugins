@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "resend": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "resend-mcp"
+      ],
+      "env": {
+        "RESEND_API_KEY": "${RESEND_API_KEY}"
+      },
+      "timeout": 120000,
+      "note": "Official Resend MCP server package. Requires RESEND_API_KEY in the environment."
+    }
+  }
+}

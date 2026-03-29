@@ -1,0 +1,43 @@
+{
+  "name": "resend",
+  "version": "0.1.0",
+  "description": "Resend email workflows for agents via CLI skills and MCP tooling.",
+  "author": {
+    "name": "Resend",
+    "url": "https://resend.com/"
+  },
+  "homepage": "https://resend.com/",
+  "repository": "https://github.com/resend/resend-mcp",
+  "license": "MIT",
+  "keywords": [
+    "resend",
+    "email",
+    "mcp",
+    "cli",
+    "transactional-email"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Resend",
+    "shortDescription": "Send and manage email with Resend",
+    "longDescription": "Use Resend via both MCP tools and CLI workflows to send emails, manage audiences, domains, broadcasts, templates, and webhooks.",
+    "developerName": "Resend",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://resend.com/",
+    "privacyPolicyURL": "https://resend.com/legal/privacy-policy",
+    "termsOfServiceURL": "https://resend.com/legal/terms",
+    "defaultPrompt": [
+      "Send a transactional email with Resend",
+      "Set up and verify a Resend domain",
+      "Create and send a Resend broadcast"
+    ],
+    "brandColor": "#000000",
+    "screenshots": []
+  }
+}
