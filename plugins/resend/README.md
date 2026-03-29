@@ -22,6 +22,8 @@ Or use the plugin command:
 
 - `/resend-setup`
 
+This is intended as a one-time machine setup. After it succeeds, normal sessions should run `resend` directly without repeating setup checks.
+
 The bootstrap flow does this automatically:
 
 - checks `resend --help`

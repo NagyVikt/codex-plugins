@@ -1,6 +1,6 @@
 # /resend-setup
 
-Bootstrap the Resend plugin runtime on the current machine.
+Bootstrap the Resend plugin runtime on the current machine (one-time setup).
 
 ## Goal
 

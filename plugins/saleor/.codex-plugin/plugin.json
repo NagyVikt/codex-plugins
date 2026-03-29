@@ -1,0 +1,42 @@
+{
+  "name": "saleor",
+  "version": "0.1.0",
+  "description": "Saleor storefront implementation guidance with the saleor-paper-storefront skill bundle.",
+  "author": {
+    "name": "Saleor",
+    "url": "https://saleor.io/"
+  },
+  "homepage": "https://saleor.io/",
+  "repository": "https://github.com/saleor/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "saleor",
+    "ecommerce",
+    "storefront",
+    "nextjs",
+    "graphql"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Saleor",
+    "shortDescription": "Saleor storefront build guidance",
+    "longDescription": "Use the bundled saleor-paper-storefront skill for project-specific Saleor storefront architecture, GraphQL, caching, checkout, variants, filtering, SEO, and UI patterns.",
+    "developerName": "Saleor",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://saleor.io/",
+    "privacyPolicyURL": "https://saleor.io/legal/privacy/",
+    "termsOfServiceURL": "https://saleor.io/legal/terms/",
+    "defaultPrompt": [
+      "Use saleor-paper-storefront to implement a PDP change",
+      "Audit Saleor GraphQL query and caching patterns",
+      "Fix checkout session flow in this Saleor storefront"
+    ],
+    "brandColor": "#0F172A",
+    "screenshots": []
+  }
+}

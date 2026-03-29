@@ -1,0 +1,43 @@
+{
+  "name": "supabase",
+  "version": "0.2.0",
+  "description": "Supabase MCP integration with setup and usage skills for auth, schema exploration, and query workflows.",
+  "author": {
+    "name": "Supabase",
+    "url": "https://supabase.com/"
+  },
+  "homepage": "https://supabase.com/",
+  "repository": "https://github.com/supabase",
+  "license": "MIT",
+  "keywords": [
+    "supabase",
+    "postgres",
+    "database",
+    "auth",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Supabase",
+    "shortDescription": "Supabase MCP + setup/usage workflows",
+    "longDescription": "Connect Codex to Supabase through the official MCP endpoint with OAuth, then use built-in setup and usage skills for schema inspection, auth troubleshooting, RLS guidance, and query patterns.",
+    "developerName": "Supabase",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://supabase.com/",
+    "privacyPolicyURL": "https://supabase.com/privacy",
+    "termsOfServiceURL": "https://supabase.com/terms",
+    "defaultPrompt": [
+      "Run /supabase:setup and validate my Supabase MCP connection",
+      "Inspect my Supabase schema and suggest query improvements",
+      "Help troubleshoot Supabase auth, RLS policy, or database issues"
+    ],
+    "brandColor": "#3ECF8E",
+    "screenshots": []
+  }
+}
