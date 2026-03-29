@@ -1,0 +1,41 @@
+{
+  "name": "prompt-optimizer",
+  "version": "0.1.0",
+  "description": "Prompt optimization patterns to reduce token usage while keeping output quality.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://openai.com/",
+  "repository": "https://openai.com/",
+  "license": "MIT",
+  "keywords": [
+    "prompts",
+    "token-optimization",
+    "codex",
+    "efficiency"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Prompt Optimizer",
+    "shortDescription": "Lower token usage without losing intent",
+    "longDescription": "Provides practical prompt compression workflows for Codex: concise constraints, reusable context blocks, and output caps to reduce total token spend.",
+    "developerName": "OpenAI",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://openai.com/",
+    "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
+    "defaultPrompt": [
+      "Use prompt-optimizer to rewrite this request for 30% lower token usage while preserving meaning.",
+      "Compress this task prompt into a reusable template with variables and strict output limits.",
+      "Turn this long context into a compact summary plus a minimal follow-up prompt."
+    ],
+    "brandColor": "#0EA5E9",
+    "screenshots": []
+  }
+}

@@ -28,6 +28,7 @@ open-source ecosystems, enterprise platforms, and modern CLI-driven stacks.
 
 - [x] Development tools you can run now
   - [x] Use structured implementation workflows from `superpowers` (planning, debugging, TDD, verification, code review).
+  - [x] Optimize prompt/token efficiency with `prompt-optimizer` (`prompt-optimizer`) for concise, reusable request patterns.
   - [x] Run plugin-specific CLI workflows with `supabase` (`cli`) and `resend` (`resend-cli`).
   - [x] Run local filesystem and terminal automation workflows with `desktop-commander` (`desktop-commander-ops`).
   - [x] Standardize container build, compose, publish, and debug loops with `docker` (`docker-build-local-images`, `docker-compose-dev-loop`, `docker-publish-images`, `docker-debug-containers`).
@@ -57,7 +58,7 @@ open-source ecosystems, enterprise platforms, and modern CLI-driven stacks.
   - [x] Web frameworks/platforms: strong support via `vercel`, `netlify`, `build-web-apps`, `cloudflare`.
   - [x] Mobile: `build-ios-apps` (SwiftUI) and `test-android-apps` (emulator QA).
   - [x] Commerce: `medusa` and `saleor`.
-  - [x] Productivity/workspace automation: `google-drive`, `gmail`, `google-calendar`, `slack`, `notion`, `box`, `linear`.
+  - [x] Productivity/workspace automation: `google-drive`, `gmail`, `google-calendar`, `slack`, `notion`, `box`, `linear`, `prompt-optimizer`.
 
 - [ ] TODO: auto-generate top-skill and expandable hidden-skill blocks from plugin metadata/scripts.
 
@@ -130,23 +131,52 @@ bash scripts/install_windows.sh
 
 ## Step-by-step tutorial
 
-Use this quick flow to go from install to first plugin scaffold.
+Use this quick flow to go from install to your first plugin scaffold.
+
+**Format:** each step has what to run, what to verify, and a screenshot.
+**Time:** ~2 to 3 minutes.
 
 ### Step 1: Install and link the plugin workspace
 
-Run the OS-specific install script from the setup section above.
+Run one command based on your OS:
+
+```bash
+# Linux
+bash scripts/install_linux.sh
+
+# Windows (Git Bash)
+bash scripts/install_windows.sh
+```
+
+Verify that no errors are shown and the script completes.
 
 ![Step 1 - install and link workspace](./public/tutorial-step-1.png)
 
 ### Step 2: Verify symlink and marketplace wiring
 
-Run the verification commands in `Check it worked` and confirm both paths point to this repo.
+Run the validation commands:
+
+```bash
+ls -l "$HOME/plugins"
+ls -l "$HOME/.agents/plugins/marketplace.json"
+scripts/sync_plugins_to_marketplace.py --dry-run
+```
+
+Expected result:
+- `~/plugins` points to this repository's `plugins/` directory.
+- `~/.agents/plugins/marketplace.json` points to this repository marketplace file.
 
 ![Step 2 - verify setup](./public/tutorial-step-2.png)
 
 ### Step 3: Generate your first plugin scaffold
 
-Create a starter plugin with `bash scripts/new-plugin.sh my-plugin`, then follow the printed git commands.
+Create your first plugin:
+
+```bash
+bash scripts/new-plugin.sh my-plugin
+```
+
+The script scaffolds the plugin, syncs marketplace metadata, and prints the next git commands to run.
 
 ![Step 3 - create first plugin](./public/tutorial-step-3.png)
 
@@ -329,6 +359,13 @@ Advanced engineering execution skills for planning, debugging, reviews, and deli
   More skills: `receiving-code-review`, `requesting-code-review`, `subagent-driven-development`, `systematic-debugging`, `test-driven-development`, `using-git-worktrees`, `using-superpowers`, `verification-before-completion`, `writing-plans`, `writing-skills`
   </details>
 - Skill count: `14`
+
+#### [`prompt-optimizer`](./plugins/prompt-optimizer)
+
+Reduce token usage in Codex prompts while preserving intent and output quality.
+
+- Top skills: `prompt-optimizer`
+- Skill count: `1`
 
 #### [`game-studio`](./plugins/game-studio)
 
