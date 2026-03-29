@@ -17,7 +17,7 @@ open-source ecosystems, enterprise platforms, and modern CLI-driven stacks.
 - [x] Create web apps quickly
   - [x] Build and refine Next.js-style product UIs with `build-web-apps` (`frontend-skill`, `react-best-practices`, `shadcn-best-practices`).
   - [x] Turn Figma designs into implementation tasks and component mappings with `figma` (`figma-implement-design`, `figma-code-connect-components`, `figma-create-design-system-rules`).
-  - [x] Convert code changes into GitHub branches and PRs with `github` (`yeet`, `github`, `gh-address-comments`).
+  - [x] Convert code changes into GitHub branches/PRs and verified auto-publish flows with `github` (`yeet`, `auto-publish-after-plan`, `github`, `gh-address-comments`).
   - [x] Add payments and database architecture safely with `stripe` (`stripe-best-practices`) and `supabase` (`setup`, `supabase-usage`, `cli`).
 
 - [x] Design and visual iteration workflows
@@ -260,8 +260,12 @@ Capture knowledge, transform notes into specs, and operationalize docs workflows
 
 Run end-to-end repo operations: triage, CI fixes, review workflows, and PR publishing.
 
-- Top skills: `gh-address-comments`, `gh-fix-ci`, `github`, `yeet`
-- Skill count: `4`
+- Top skills: `auto-publish-after-plan`, `gh-address-comments`, `gh-fix-ci`, `github`
+  <details>
+  <summary>Show 1 more skills</summary>
+  More skills: `yeet`
+  </details>
+- Skill count: `5`
 
 #### [`build-ios-apps`](./plugins/build-ios-apps)
 

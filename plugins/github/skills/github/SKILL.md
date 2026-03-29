@@ -42,10 +42,12 @@ Prefer the GitHub app from this plugin for those flows because it provides struc
    - `review follow-up`: unresolved review threads, requested changes, or inline review feedback
    - `CI debugging`: failing checks, Actions logs, or CI root-cause analysis
    - `publish changes`: create or switch branches, stage changes, commit, push, and open a draft PR
+   - `post-plan auto publish`: implementation is complete, checks passed, and changes should be committed and pushed automatically
 3. Route to the specialist skill as soon as the category is clear:
    - Review comments and requested changes: `../gh-address-comments/SKILL.md`
    - Failing GitHub Actions checks: `../gh-fix-ci/SKILL.md`
    - Commit, push, and open PR: `../yeet/SKILL.md`
+   - Auto commit and push after verified implementation: `../auto-publish-after-plan/SKILL.md`
 4. Keep the hybrid model consistent after routing:
    - connector first for PR and issue data
    - local `git` and `gh` only for the specific gaps the connector does not cover
@@ -56,6 +58,7 @@ Prefer the GitHub app from this plugin for those flows because it provides struc
 2. Gather structured PR or issue context through the GitHub app from this plugin.
 3. Decide whether the task stays in connector-backed triage or needs a specialist skill.
 4. Route immediately when the work becomes review follow-up, CI debugging, or publish workflow.
+   - If the user asks for automatic post-plan commit/push behavior, route to `auto-publish-after-plan`.
 5. End with a clear summary of what was inspected, what changed, and what remains.
 
 ## Output Expectations
@@ -72,3 +75,4 @@ Prefer the GitHub app from this plugin for those flows because it provides struc
 - "Review the latest comments on PR 482 and tell me what is actionable."
 - "Debug the failing checks on this branch."
 - "Commit these changes, push them, and open a draft PR."
+- "Plan is implemented and verified; auto-commit and push this branch."

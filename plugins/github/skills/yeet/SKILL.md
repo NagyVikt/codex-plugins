@@ -7,13 +7,14 @@ description: "Publish local changes to GitHub by confirming scope, committing in
 
 ## Overview
 
-Use this skill only when the user explicitly wants the full publish flow from the local checkout: branch setup if needed, staging, commit, push, and opening a pull request.
+Use this skill when the user wants the publish flow from the local checkout: branch setup if needed, staging, commit, push, and optional pull request creation.
 
 This workflow is hybrid:
 
 - Use local `git` for branch creation, staging, commit, and push.
 - Prefer the GitHub app from this plugin for pull request creation after the branch is on the remote.
 - Use `gh` as a fallback for current-branch PR discovery, auth checks, or PR creation when the connector path cannot infer the repository or head branch cleanly.
+- For deterministic auto-publish mode after verified plan implementation, use `scripts/prepare_auto_publish.py` to enforce branch guard and commit-message generation.
 
 ## Prerequisites
 
@@ -52,10 +53,27 @@ This workflow is hybrid:
    - Write the PR body to a temp file with real newlines when using CLI fallback so the markdown renders cleanly.
 8. Summarize the result with branch name, commit, PR target, validation, and anything the user still needs to confirm.
 
+## Non-Interactive Auto-Publish Mode
+
+Use this mode when user policy is "auto-commit + auto-push after verified implementation":
+
+1. Ensure verification already passed.
+2. Run helper metadata generator:
+   - `python plugins/github/skills/yeet/scripts/prepare_auto_publish.py --repo . --task-intent "<short intent>" --json`
+3. Enforce branch guard from helper output:
+   - if `branchGuardOk` is `false`, stop and ask for branch action instead of committing.
+4. Stage intended files:
+   - `git add -A` only if helper output `mixedWorktree` is `false`.
+   - otherwise stage explicit paths.
+5. Commit with helper-provided `commitMessage`.
+6. Push current branch: `git push -u origin $(git branch --show-current)`.
+7. Do not open PR unless explicitly requested.
+
 ## Write Safety
 
 - Never stage unrelated user changes silently.
 - Never push without confirming scope when the worktree is mixed.
+- Never auto-push from `main`, `master`, or detected default branch in auto mode.
 - Default to a draft PR unless the user explicitly asks for a ready-for-review PR.
 - If the repository does not appear to be connected to an accessible GitHub remote, stop and explain the blocker before making assumptions.
 
