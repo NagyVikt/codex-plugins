@@ -1,0 +1,42 @@
+{
+  "name": "superpowers",
+  "version": "0.1.0",
+  "description": "Superpowers workflow skills for structured planning, debugging, testing, review, and execution in Codex.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://github.com/obra/superpowers",
+  "repository": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "keywords": [
+    "workflow",
+    "planning",
+    "tdd",
+    "debugging",
+    "code-review",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Superpowers",
+    "shortDescription": "Structured engineering workflows for Codex sessions",
+    "longDescription": "Use Superpowers to drive structured development workflows in Codex, including brainstorming, planning, TDD, systematic debugging, code-review loops, and branch-finishing playbooks.",
+    "developerName": "OpenAI",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/obra/superpowers",
+    "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
+    "defaultPrompt": [
+      "Use superpowers workflows to plan and execute this feature safely"
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}
