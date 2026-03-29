@@ -402,6 +402,7 @@ These are the source repositories used to create and evolve skills across this p
 - [claude-codex-settings](https://github.com/fcakyon/claude-codex-settings)
 - [cli](https://github.com/supabase/cli)
 - [medusa-agent-skills](https://github.com/medusajs/medusa-agent-skills)
+- [openai/plugins](https://github.com/openai/plugins) _(official upstream plugin repository)_
 - [plugins](https://github.com/NagyVikt/openplugins)
 - [resend-cli](https://github.com/resend/resend-cli)
 - [resend-mcp](https://github.com/resend/resend-mcp)
