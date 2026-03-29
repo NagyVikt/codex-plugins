@@ -1,7 +1,7 @@
 {
   "name": "supabase",
-  "version": "0.2.0",
-  "description": "Supabase MCP integration with setup and usage skills for auth, schema exploration, and query workflows.",
+  "version": "0.3.0",
+  "description": "Supabase MCP integration with setup, usage, and CLI skills for auth, schema exploration, migrations, and query workflows.",
   "author": {
     "name": "Supabase",
     "url": "https://supabase.com/"
@@ -14,14 +14,16 @@
     "postgres",
     "database",
     "auth",
-    "mcp"
+    "mcp",
+    "cli",
+    "migrations"
   ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Supabase",
-    "shortDescription": "Supabase MCP + setup/usage workflows",
-    "longDescription": "Connect Codex to Supabase through the official MCP endpoint with OAuth, then use built-in setup and usage skills for schema inspection, auth troubleshooting, RLS guidance, and query patterns.",
+    "shortDescription": "Supabase MCP + setup/usage/CLI workflows",
+    "longDescription": "Connect Codex to Supabase through the official MCP endpoint with OAuth, then use built-in setup, usage, and CLI skills for schema inspection, auth troubleshooting, RLS guidance, migrations, local dev commands, and query patterns.",
     "developerName": "Supabase",
     "category": "Coding",
     "capabilities": [
@@ -34,6 +36,7 @@
     "termsOfServiceURL": "https://supabase.com/terms",
     "defaultPrompt": [
       "Run /supabase:setup and validate my Supabase MCP connection",
+      "Use /supabase:cli to run safe Supabase CLI workflows for local dev and migrations",
       "Inspect my Supabase schema and suggest query improvements",
       "Help troubleshoot Supabase auth, RLS policy, or database issues"
     ],

@@ -1,19 +1,14 @@
-# Superpowers Plugin
+# superpowers
 
-This plugin vendors the Superpowers skills into the OPENAI plugins repository.
+The plugin workspace for Codex.
 
-## Source
+Built for humans, AI agents, and CI/CD pipelines.
 
-- Upstream source: `/home/deadpool/.codex/superpowers`
-- Vendored path: `plugins/superpowers/skills`
-
-## Refresh vendored skills
-
-From `/home/deadpool/Documents/OPENAI/plugins`:
-
-```bash
-rm -rf plugins/superpowers/skills
-cp -a /home/deadpool/.codex/superpowers/skills plugins/superpowers/
+```text
+ ████  █   █  ████   █████  ████   ████    ███   █   █  █████  ████    ████
+█      █   █  █   █  █      █   █  █   █  █   █  █   █  █      █   █  █
+ ███   █   █  ████   ████   ████   ████   █   █  █   █  ████   ████    ███
+    █  █   █  █      █      █  █   █      █   █  █ █ █  █      █  █       █
+    █  █   █  █      █      █   █  █      █   █  ██ ██  █      █   █      █
+████    ███   █      █████  █   █  █       ███   █   █  █████  █   █  ████
 ```
-
-After refreshing, restart Codex so skill discovery uses the updated bundle.
