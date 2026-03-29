@@ -13,43 +13,52 @@ Built for humans, AI agents, and CI/CD pipelines.
  ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═╝     ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝
 ```
 
-## What Codex plugins can do today (skill-backed):
+## What Codex can already do with plugins
 
-- [x] Create Next.js app in seconds
-  - [ ] Start from text or image
-  - [x] Use prebuilt templates
-  - [x] Import from Figma
-  - [ ] Import from GitHub repo
-  - [x] Make a PR to a GitHub repo
-- [x] Visually edit your app
-  - [ ] Use Figma-like UI
-  - [x] Preview your app in real-time
-  - [x] Manage brand assets and tokens
-  - [x] Create and navigate to Pages
-  - [x] Browse layers
-  - [x] Manage project Images
-  - [x] Detect and use Components - _Previously in [Onlook Desktop](https://github.com/onlook-dev/desktop)_
-  - [ ] Drag-and-drop Components Panel
-  - [x] Use Branching to experiment with designs
-- [x] Development Tools
-  - [ ] Real-time code editor
-  - [x] Save and restore from checkpoints
-  - [x] Run commands via CLI
-  - [x] Connect with app marketplace
-- [x] Deploy your app in seconds
-  - [x] Generate sharable links
-  - [x] Link your custom domain
-- [ ] Collaborate with your team
-  - [ ] Real-time editing
-  - [x] Leave comments
-- [ ] Advanced AI capabilities
-  - [ ] Queue multiple messages at once
-  - [x] Use Images as references and as assets in a project
-  - [x] Setup and use MCPs in projects
-  - [x] Allow Codex to use toolcalls for branch creation and iteration
-- [x] Advanced project support
-  - [x] Support non-NextJS projects
-  - [x] Support non-Tailwind projects
+This is the real, current capability surface from plugins in this repo today.
+
+### Create web apps quickly
+- Build and refine Next.js-style product UIs with `build-web-apps` (`frontend-skill`, `react-best-practices`, `shadcn-best-practices`).
+- Turn Figma designs into implementation tasks and component mappings with `figma` (`figma-implement-design`, `figma-code-connect-components`, `figma-create-design-system-rules`).
+- Convert code changes into GitHub branches and PRs with `github` (`yeet`, `github`, `gh-address-comments`).
+- Add payments and database architecture safely with `stripe` (`stripe-best-practices`) and `supabase` (`setup`, `supabase-usage`, `cli`).
+
+### Design and visual iteration workflows
+- Run design-to-code loops using `figma` plus UI refinement in `build-web-apps`.
+- Test and verify web output in browser flows with `vercel` (`agent-browser`, `agent-browser-verify`, `verification`).
+- Structure storefront/admin UX work for commerce projects with `medusa` and `saleor` skills.
+- Iterate safely with branching and review workflows via `github` and `superpowers`.
+
+### Development tools you can run now
+- Use structured implementation workflows from `superpowers` (planning, debugging, TDD, verification, code review).
+- Run plugin-specific CLI workflows with `supabase` (`cli`) and `resend` (`resend-cli`).
+- Use integration-focused workflows for cloud/platform ops with `aws`, `cloudflare`, `vercel`, and `netlify`.
+- Triage production signals with `sentry` and feed fixes into repo workflows with `github`.
+
+### Deploy and ship faster
+- Deploy and operate web apps with `vercel` (`deployments-cicd`, `vercel-cli`, `env-vars`, `observability`).
+- Deploy to Netlify with `netlify` (`netlify-deploy`).
+- Manage production-ready delivery flows from implementation to PR using `github` + `superpowers`.
+- Support links/domains/env management through deployment and platform skills in `vercel` and `netlify`.
+
+### Collaboration and coordination
+- Summarize channels, draft replies, and build digests with `slack` skills.
+- Triage inboxes and draft email responses with `gmail`.
+- Schedule and coordinate team calendars with `google-calendar`.
+- Capture planning/research/meeting knowledge with `notion`.
+- Add annotation-driven developer feedback loops in React apps with `agentation`.
+
+### Advanced AI and platform capabilities
+- Build AI-enabled app flows with `vercel` (`ai-sdk`, `ai-elements`, `ai-gateway`, `chat-sdk`).
+- Configure and use MCP-backed workflows in supported plugins (`vercel`, `supabase`, `cloudflare`, `aws`, `medusa`, `resend`, `hugging-face`, `agentation`, `build-web-apps`).
+- Explore models, datasets, eval, and inference workflows with `hugging-face`.
+- Build agent/runtime systems on edge/cloud with `cloudflare`, `aws`, and `vercel` skills.
+
+### Broad project support
+- Web frameworks/platforms: strong support via `vercel`, `netlify`, `build-web-apps`, `cloudflare`.
+- Mobile: `build-ios-apps` (SwiftUI) and `test-android-apps` (emulator QA).
+- Commerce: `medusa` and `saleor`.
+- Productivity/workspace automation: `google-drive`, `gmail`, `google-calendar`, `slack`, `notion`, `box`, `linear`.
 
 TODO: auto-generate top-skill and expandable hidden-skill blocks from plugin metadata/scripts.
 
