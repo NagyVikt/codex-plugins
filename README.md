@@ -1,8 +1,7 @@
 # CODEX PLUGINS
 
-The plugin workspace for Codex.
-
-Built for humans, AI agents, and CI/CD pipelines.
+A Codex plugin workspace to rule them all, unlocking superpowers across open-
+source and enterprise platforms, from community stacks to modern CLIs.
 
 ```text
  ██████╗ ██████╗ ██████╗ ███████╗██╗  ██╗    ██████╗ ██╗     ██╗   ██╗ ██████╗ ██╗███╗   ██╗███████╗
@@ -60,6 +59,35 @@ Built for humans, AI agents, and CI/CD pipelines.
 
 - [ ] TODO: auto-generate top-skill and expandable hidden-skill blocks from plugin metadata/scripts.
 
+### What to add next (TODO roadmap)
+
+#### P0 — Platform coverage next
+
+- [ ] Google Cloud plugin — Build/deploy/troubleshoot Cloud Run, GKE, Cloud SQL, and Vertex AI workloads.
+- [ ] Azure plugin — Ship and operate AKS/App Service/Cosmos workloads with Azure-native workflows.
+- [ ] GitLab plugin — Manage merge requests, CI pipelines, and repo triage outside GitHub.
+- [ ] Jira plugin — Link implementation work to issue triage, sprint flow, and delivery status.
+- [ ] Kubernetes plugin — Diagnose cluster/app rollout issues with kubectl-first operational workflows.
+- [ ] Docker plugin — Standardize local container build, compose, publish, and debug flows.
+- [ ] Firebase plugin — Support Auth, Firestore, Hosting, and Functions workflows.
+- [ ] Render/Railway/Fly.io plugins — Expand non-Vercel/Netlify deployment coverage.
+
+#### P1 — Productivity and collaboration expansion
+
+- [ ] Microsoft Teams plugin — Summaries, update drafts, and channel coordination workflows.
+- [ ] Discord plugin — Community/moderation summaries and outbound messaging workflows.
+- [ ] Confluence plugin — Capture specs/runbooks and connect engineering docs to implementation tasks.
+- [ ] Asana plugin — Convert project tasks into execution-ready engineering workflows.
+- [ ] Trello plugin — Board triage and task lifecycle workflows for smaller teams.
+
+#### P2 — AI workflow depth and automation
+
+- [ ] Cross-plugin workflow chains — Reusable templates that chain design, code, deploy, and comms steps.
+- [ ] Capability matrix generator — Auto-generate planner/lineup capability blocks from plugin metadata.
+- [ ] Plugin maturity labels — Track alpha/beta/stable status for each plugin in README.
+- [ ] Validation coverage indicators — Show whether skills have tests/examples and operational checks.
+- [ ] Guided “best plugin for task” router — Add decision helpers for picking the right plugin path fast.
+
 ## 2-minute setup
 
 Clone and open the repo (any location is fine):
@@ -113,19 +141,17 @@ See [docs/setup-reference.md](docs/setup-reference.md) for:
 
 ## Current plugin lineup
 
-Live in this repo today, grouped by use case so you can find the right plugin and skills quickly.
-
-TODO: auto-generate top-skill and expandable hidden-skill blocks from plugin metadata/scripts.
-
-### Productivity
-
 #### [`linear`](./plugins/linear)
+
 Turn product requests into shipped work with issue triage and delivery workflows.
+
 - Top skills: `linear`
 - Skill count: `1`
 
 #### [`google-calendar`](./plugins/google-calendar)
+
 Plan smarter schedules, automate prep, and keep team calendars conflict-free.
+
 - Top skills: `google-calendar`, `google-calendar-daily-brief`, `google-calendar-free-up-time`, `google-calendar-group-scheduler`
   <details>
   <summary>Show 1 more skills</summary>
@@ -134,12 +160,16 @@ Plan smarter schedules, automate prep, and keep team calendars conflict-free.
 - Skill count: `5`
 
 #### [`gmail`](./plugins/gmail)
+
 Triage inboxes fast and draft high-quality replies with context-aware workflows.
+
 - Top skills: `gmail`, `gmail-inbox-triage`
 - Skill count: `2`
 
 #### [`slack`](./plugins/slack)
+
 Summarize channels, triage notifications, and ship clear outbound updates in seconds.
+
 - Top skills: `slack`, `slack-channel-summarization`, `slack-daily-digest`, `slack-notification-triage`
   <details>
   <summary>Show 2 more skills</summary>
@@ -148,12 +178,16 @@ Summarize channels, triage notifications, and ship clear outbound updates in sec
 - Skill count: `6`
 
 #### [`canva`](./plugins/canva)
+
 Generate polished visual assets and social-ready variants without leaving the terminal.
+
 - Top skills: `canva-branded-presentation`, `canva-resize-for-all-social-media`, `canva-translate-design`
 - Skill count: `3`
 
 #### [`figma`](./plugins/figma)
+
 Bridge design and code with component generation, system rules, and rapid design ops.
+
 - Top skills: `figma-code-connect-components`, `figma-create-design-system-rules`, `figma-create-new-file`, `figma-generate-design`
   <details>
   <summary>Show 3 more skills</summary>
@@ -162,17 +196,23 @@ Bridge design and code with component generation, system rules, and rapid design
 - Skill count: `7`
 
 #### [`jam`](./plugins/jam)
+
 Capture and structure bug feedback loops to accelerate debugging and product quality.
+
 - Top skills: `coming soon`
 - Skill count: `0` (plugin scaffold present, skill pack in progress)
 
 #### [`box`](./plugins/box)
+
 Automate secure file workflows and enterprise document operations at scale.
+
 - Top skills: `box`
 - Skill count: `1`
 
 #### [`google-drive`](./plugins/google-drive)
+
 Work across Docs, Sheets, and Drive assets with high-speed workspace automation.
+
 - Top skills: `google-docs`, `google-drive`, `google-sheets`, `google-sheets-chart-builder`
   <details>
   <summary>Show 6 more skills</summary>
@@ -181,19 +221,25 @@ Work across Docs, Sheets, and Drive assets with high-speed workspace automation.
 - Skill count: `10`
 
 #### [`notion`](./plugins/notion)
+
 Capture knowledge, transform notes into specs, and operationalize docs workflows.
+
 - Top skills: `notion-knowledge-capture`, `notion-meeting-intelligence`, `notion-research-documentation`, `notion-spec-to-implementation`
 - Skill count: `4`
 
 ### Developer Workflows
 
 #### [`github`](./plugins/github)
+
 Run end-to-end repo operations: triage, CI fixes, review workflows, and PR publishing.
+
 - Top skills: `gh-address-comments`, `gh-fix-ci`, `github`, `yeet`
 - Skill count: `4`
 
 #### [`build-ios-apps`](./plugins/build-ios-apps)
+
 Design, refactor, and debug SwiftUI apps with simulator-aware engineering workflows.
+
 - Top skills: `ios-debugger-agent`, `swiftui-liquid-glass`, `swiftui-performance-audit`, `swiftui-ui-patterns`
   <details>
   <summary>Show 1 more skills</summary>
@@ -202,7 +248,9 @@ Design, refactor, and debug SwiftUI apps with simulator-aware engineering workfl
 - Skill count: `5`
 
 #### [`build-web-apps`](./plugins/build-web-apps)
+
 Create high-impact web products with deployment, UI, data, and payments best practices.
+
 - Top skills: `deploy-to-vercel`, `frontend-skill`, `react-best-practices`, `shadcn-best-practices`
   <details>
   <summary>Show 3 more skills</summary>
@@ -211,12 +259,16 @@ Create high-impact web products with deployment, UI, data, and payments best pra
 - Skill count: `7`
 
 #### [`test-android-apps`](./plugins/test-android-apps)
+
 Automate Android app QA and emulator-driven validation for release confidence.
+
 - Top skills: `android-emulator-qa`
 - Skill count: `1`
 
 #### [`superpowers`](./plugins/superpowers)
+
 Advanced engineering execution skills for planning, debugging, reviews, and delivery.
+
 - Top skills: `brainstorming`, `dispatching-parallel-agents`, `executing-plans`, `finishing-a-development-branch`
   <details>
   <summary>Show 10 more skills</summary>
@@ -225,7 +277,9 @@ Advanced engineering execution skills for planning, debugging, reviews, and deli
 - Skill count: `14`
 
 #### [`game-studio`](./plugins/game-studio)
+
 Prototype, playtest, and ship engaging game experiences across 2D/3D web stacks.
+
 - Top skills: `game-playtest`, `game-studio`, `game-ui-frontend`, `phaser-2d-game`
   <details>
   <summary>Show 5 more skills</summary>
@@ -234,12 +288,16 @@ Prototype, playtest, and ship engaging game experiences across 2D/3D web stacks.
 - Skill count: `9`
 
 #### [`saleor`](./plugins/saleor)
+
 Accelerate Saleor storefront architecture with practical, implementation-ready guidance.
+
 - Top skills: `saleor-paper-storefront`
 - Skill count: `1`
 
 #### [`medusa`](./plugins/medusa)
+
 Build and extend commerce backends, storefronts, and admin customizations with speed.
+
 - Top skills: `building-admin-dashboard-customizations`, `building-storefronts`, `building-with-medusa`, `db-generate`
   <details>
   <summary>Show 4 more skills</summary>
@@ -248,14 +306,18 @@ Build and extend commerce backends, storefronts, and admin customizations with s
 - Skill count: `8`
 
 #### [`agentation`](./plugins/agentation)
+
 Add annotation-driven agent feedback loops directly into React product workflows.
+
 - Top skills: `agentation`
 - Skill count: `1`
 
 ### Platform & Infrastructure
 
 #### [`vercel`](./plugins/vercel)
+
 Ship full-stack apps faster with deep support for deploys, AI, observability, and infra.
+
 - Top skills: `agent-browser`, `agent-browser-verify`, `ai-elements`, `ai-gateway`
   <details>
   <summary>Show 43 more skills</summary>
@@ -264,17 +326,23 @@ Ship full-stack apps faster with deep support for deploys, AI, observability, an
 - Skill count: `47`
 
 #### [`netlify`](./plugins/netlify)
+
 Deploy and operate modern web projects with streamlined Netlify-focused automation.
+
 - Top skills: `netlify-deploy`
 - Skill count: `1`
 
 #### [`stripe`](./plugins/stripe)
+
 Build safer payment flows, upgrades, and integration decisions with battle-tested patterns.
+
 - Top skills: `stripe-best-practices`, `upgrade-stripe`
 - Skill count: `2`
 
 #### [`cloudflare`](./plugins/cloudflare)
+
 Build edge-native apps, agents, workers, and durable systems on Cloudflare.
+
 - Top skills: `agents-sdk`, `building-ai-agent-on-cloudflare`, `building-mcp-server-on-cloudflare`, `cloudflare`
   <details>
   <summary>Show 5 more skills</summary>
@@ -283,27 +351,37 @@ Build edge-native apps, agents, workers, and durable systems on Cloudflare.
 - Skill count: `9`
 
 #### [`sentry`](./plugins/sentry)
+
 Inspect real production issues and prioritize fixes with error-first operational visibility.
+
 - Top skills: `sentry`
 - Skill count: `1`
 
 #### [`aws`](./plugins/aws)
+
 Design and operate secure AWS architectures, including OpenAI-powered workloads.
+
 - Top skills: `aws-openai-workflow`, `aws-workflow`
 - Skill count: `2`
 
 #### [`supabase`](./plugins/supabase)
+
 Stand up and run Supabase projects with CLI-first setup and usage workflows.
+
 - Top skills: `cli`, `setup`, `supabase-usage`
 - Skill count: `3`
 
 #### [`resend`](./plugins/resend)
+
 Operationalize email delivery from local dev to CI pipelines with Resend-native tooling.
+
 - Top skills: `resend-cli`
 - Skill count: `1`
 
 #### [`hugging-face`](./plugins/hugging-face)
+
 Production toolkit for model discovery, datasets, evals, Spaces, and inference flows.
+
 - Top skills: `cli`, `community-evals`, `datasets`, `gradio`
   <details>
   <summary>Show 7 more skills</summary>
@@ -327,5 +405,5 @@ These are the source repositories used to create and evolve skills across this p
 - [plugins](https://github.com/NagyVikt/openplugins)
 - [resend-cli](https://github.com/resend/resend-cli)
 - [resend-mcp](https://github.com/resend/resend-mcp)
-- [saleor-paper-storefront](https://github.com/saleor/agent-skills) *(base reference for the Saleor storefront skill pack)*
+- [saleor-paper-storefront](https://github.com/saleor/agent-skills) _(base reference for the Saleor storefront skill pack)_
 - [superpowers](https://github.com/obra/superpowers)
